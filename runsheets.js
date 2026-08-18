@@ -45,7 +45,7 @@
    ============================================================================= */
 const TOILET_NOTE='1x lock up. Check all toilets for damage/graffiti and suspicious/homeless persons. If all clear, lock the toilet.';
 const LIB_NOTE='2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.';
-window.RUNS_UPDATED='10 Aug 2026';
+window.RUNS_UPDATED='18 Aug 2026';
 window.RUNS={
  A1:{label:'Allied 1', shift:'1800-0600', sites:[
   {id:'p2p1',name:'Paddock To Port (Pipe Rd)',key:null,addr:'46 Pipe Rd, Laverton North VIC 3026',dur:'5 min',req:1,windows:[BETWEEN('18:15','18:30')],winLabels:['Lock 1815-1830'],info:['Lock code 1985'],notes:'1x patrol. Lock the front gate at approximately 1830. Report any damage, graffiti, or suspicious activities.'},
@@ -102,6 +102,7 @@ window.RUNS={
   {id:'aerob',name:'AE Roberts',key:'B106912',addr:'8/12 Viewtech Pl, Rowville VIC 3178',dur:'10 min',req:3,notes:'3x intermediate patrol. Check all doors and ensure they are secured.'},
   {id:'caprice',name:'Caprice',key:null,addr:'21-23 S Park Dr, Dandenong South VIC 3175',dur:'10 min',req:3,notes:'3x intermediate patrol. Check all gates (3x gates) and fenceline.'},
   {id:'compnow',name:'Compnow',key:'B106948',addr:'352 Ferntree Gully Rd, Notting Hill VIC 3168',dur:'10 min',req:3,notes:'3x intermediate patrol. Ensure all doors are secured.'},
+  {id:'compnow-92',name:'Compnow 93 Normanby',key:'No keys',addr:'93 Normanby Rd, Notting Hill VIC 3168',dur:'10 min',req:3,info:['After hours: ART Security 1300 278 666'],notes:'3x patrols per night. External only for now until we receive keys. Ensure building is secured and report any damage/graffiti'},
   {id:'compnowoff',name:'Compnow Office',key:'B106999',addr:'294a Ferntree Gully Rd, Notting Hill VIC 3168',dur:'10 min',req:1,notes:'1x intermediate patrol. Ensure all doors are secured.'},
   {id:'jllc',name:'JLL Building C',key:'B107000',addr:'211 Wellington Rd, Mulgrave VIC 3170',dur:'10 min',req:2,notes:'2x internal patrol. Ensure all doors are secured. No signs of damage or break and enter.'},
   {id:'loreal',name:'L\'Oreal Dandenong',key:'B106781',addr:'15 Imagine Way, Dandenong South VIC 3175',dur:'10 min',req:d=>d==='Sat'?2:1,activeDays:FRISUN,afterMin:T('00:00'),minGap:180,notes:'Friday and Sunday: 1x intermediate patrol after 0100. Enter gates and drive around the site.\nSaturday: 2x intermediate patrols after midnight, at least 3 hours apart.\nNo patrols Monday to Thursday.'},
