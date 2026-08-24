@@ -115,6 +115,6 @@ window.RUNS={
   {id:'aggreko',name:'Aggreko Generators',key:'BS196857',addr:'101-107 Woodlands Dr, Braeside VIC 3195',dur:'10 min',req:3,info:['Alarm codes 5024 or 2380','After hours: Chris Tomich 0404 481 237'],notes:'3x patrol per night.'},
   {id:'keysshop',name:'Keysborough South Shopping Centre',key:'BS196861',addr:'217 Chapel Rd, Keysborough VIC 3173',dur:'10 min',req:2,info:['After hours: Dominic Monaco 0417 008 754','After hours: 1300 023 428'],notes:'2x patrol per night.'},
   {id:'tgind',name:'T & G Industries',key:null,addr:'88-92 Kirkham Rd W, Keysborough VIC 3173',dur:'10 min',req:1,notes:'1x intermediate patrol. Check doors and ensure everything is secured.'},
-  {id:'site18',name:'Luminact',key:null,addr:'2 Rocco Drive, Scoresby, VIC 3179)',dur:'10 min',req:1,windows:[BETWEEN('23:30','04:30')],winLabels:['2330-0430'],info:['After hours: SSX Group 1300 779 778','After hours: SSX Group service@ssxgroup.com.au'],notes:'Entire exterior check of the premise. Ensure everything is secured and report any new damage/graffiti or any other issues.'}
+  {id:'site18',name:'Luminact',key:null,addr:'2 Rocco Drive, Scoresby, VIC 3179',dur:'10 min',req:1,windows:[BETWEEN('23:30','04:30')],winLabels:['2330-0430'],info:['After hours: SSX Group 1300 779 778','After hours: SSX Group service@ssxgroup.com.au'],notes:'Entire exterior check of the premise. Ensure everything is secured and report any new damage/graffiti or any other issues.'}
  ]},
 };
