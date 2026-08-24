@@ -45,7 +45,7 @@
    ============================================================================= */
 const TOILET_NOTE='1x lock up. Check all toilets for damage/graffiti and suspicious/homeless persons. If all clear, lock the toilet.';
 const LIB_NOTE='2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.';
-window.RUNS_UPDATED='18 Aug 2026';
+window.RUNS_UPDATED='24 Aug 2026';
 window.RUNS={
  A1:{label:'Allied 1', shift:'1800-0600', sites:[
   {id:'p2p1',name:'Paddock To Port (Pipe Rd)',key:null,addr:'46 Pipe Rd, Laverton North VIC 3026',dur:'5 min',req:1,windows:[BETWEEN('18:15','18:30')],winLabels:['Lock 1815-1830'],info:['Lock code 1985'],notes:'1x patrol. Lock the front gate at approximately 1830. Report any damage, graffiti, or suspicious activities.'},
@@ -114,6 +114,7 @@ window.RUNS={
   {id:'opal',name:'Opal',key:null,addr:'3 Millennium Ct, Knoxfield VIC 3180',dur:'5 min',req:1,notes:'1x patrol per night. Check the front and rear entry doors to ensure they are secured. Ensure there are no suspicious persons or vehicles on site. It should only take about 4-5 minutes to patrol.'},
   {id:'aggreko',name:'Aggreko Generators',key:'BS196857',addr:'101-107 Woodlands Dr, Braeside VIC 3195',dur:'10 min',req:3,info:['Alarm codes 5024 or 2380','After hours: Chris Tomich 0404 481 237'],notes:'3x patrol per night.'},
   {id:'keysshop',name:'Keysborough South Shopping Centre',key:'BS196861',addr:'217 Chapel Rd, Keysborough VIC 3173',dur:'10 min',req:2,info:['After hours: Dominic Monaco 0417 008 754','After hours: 1300 023 428'],notes:'2x patrol per night.'},
-  {id:'tgind',name:'T & G Industries',key:null,addr:'88-92 Kirkham Rd W, Keysborough VIC 3173',dur:'10 min',req:1,notes:'1x intermediate patrol. Check doors and ensure everything is secured.'}
+  {id:'tgind',name:'T & G Industries',key:null,addr:'88-92 Kirkham Rd W, Keysborough VIC 3173',dur:'10 min',req:1,notes:'1x intermediate patrol. Check doors and ensure everything is secured.'},
+  {id:'site18',name:'Luminact',key:null,addr:'2 Rocco Drive, Scoresby, VIC 3179)',dur:'10 min',req:1,windows:[BETWEEN('23:30','04:30')],winLabels:['2330-0430'],info:['After hours: SSX Group 1300 779 778','After hours: SSX Group service@ssxgroup.com.au'],notes:'Entire exterior check of the premise. Ensure everything is secured and report any new damage/graffiti or any other issues.'}
  ]},
 };
