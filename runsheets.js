@@ -45,7 +45,7 @@
    ============================================================================= */
 const TOILET_NOTE='1x lock up. Check all toilets for damage/graffiti and suspicious/homeless persons. If all clear, lock the toilet.';
 const LIB_NOTE='2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.';
-window.RUNS_UPDATED='25 Aug 2026';
+window.RUNS_UPDATED='15 Sep 2026';
 window.RUNS={
  A1:{label:'Allied 1', shift:'1800-0600', sites:[
   {id:'p2p1',name:'Paddock To Port (Pipe Rd)',key:null,addr:'46 Pipe Rd, Laverton North VIC 3026',dur:'5 min',req:1,windows:[BETWEEN('18:15','18:30')],winLabels:['Lock 1815-1830'],info:['Lock code 1985'],notes:'1x patrol. Lock the front gate at approximately 1830. Report any damage, graffiti, or suspicious activities.'},
@@ -96,7 +96,8 @@ window.RUNS={
   {id:'mclean',name:'Mclean Demo Partners',key:null,addr:'312 Burwood Rd, Hawthorn VIC 3122',dur:'10 min',req:1,notes:'1x external check of property. Check all doors. Check to ensure gates are secure and that there are no signs of break & enter.'},
   {id:'freeway',name:'Freeway Golf Course',key:'BS196867',addr:'47-49 Columba St, Balwyn North VIC 3104',dur:'7 min',req:2,notes:'2x external patrols. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons.\nOnly perform an internal patrol if suspicious activity is found - otherwise not required.'},
   {id:'kewdepot',name:'Kew Depot',key:'BS196867',addr:'31 Hutchinson Dr, Kew VIC 3101',dur:'7 min',req:2,minGap:180,notes:'2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.'},
-  {id:'site25',name:'185-187 Manningham Rd, Templestowe',key:null,addr:'185-187 Manningham Rd, Templestowe VIC 3106',dur:'10 min',req:2,minGap:90,info:['After hours: Linda Pollard (Charter Hall) 0472 648 178'],notes:'External check. Ensure all buildings are secured. Report any damage/graffiti or homeless/suspicious persons.'}
+  {id:'site25',name:'185-187 Manningham Rd, Templestowe',key:null,addr:'185-187 Manningham Rd, Templestowe VIC 3106',dur:'10 min',req:2,minGap:90,info:['After hours: Linda Pollard (Charter Hall) 0472 648 178'],notes:'External check. Ensure all buildings are secured. Report any damage/graffiti or homeless/suspicious persons.'},
+  {id:'site26',name:'Exeloo Public Toilet',key:'BS196867',addr:'9 Cotham Rd, Kew VIC 3101',dur:'15 min',req:1,windows:[EXACT('2050')],winLabels:['Must be 2050'],info:['After hours: Boroondara After Hours 9278 4444'],notes:'There is a homeless person sleeping inside the toilets. The toilets auto lock at 2100pm. Please arrive at 2050pm and wait until the toilet auto locks. Make sure no one is inside the toilet when it auto locks. If there are any persons who refuse to leave, please contact the Boroondara After Hours Number: Boroondara After Hours 9278 4444'}
  ]},
  A11:{label:'Allied 11 SE', shift:'1800-0600', sites:[
   {id:'abauto',name:'A & B Automotive Remanufacturing',key:'B106750',addr:'12-14 Cahill St, Dandenong South VIC 3175',dur:'10 min',req:1,notes:'1x intermediate patrol. Check all gates, doors and container.'},
