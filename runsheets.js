@@ -45,7 +45,7 @@
    ============================================================================= */
 const TOILET_NOTE='1x lock up. Check all toilets for damage/graffiti and suspicious/homeless persons. If all clear, lock the toilet.';
 const LIB_NOTE='2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.';
-window.RUNS_UPDATED='30 Sep 2026';
+window.RUNS_UPDATED='1 Oct 2026';
 window.RUNS={
  A1:{label:'Allied 1', shift:'1800-0600', sites:[
   {id:'p2p1',name:'Paddock To Port (Pipe Rd)',key:null,addr:'46 Pipe Rd, Laverton North VIC 3026',dur:'5 min',req:1,windows:[BETWEEN('18:15','18:30')],winLabels:['Lock 1815-1830'],info:['Lock code 1985'],notes:'1x patrol. Lock the front gate at approximately 1830. Report any damage, graffiti, or suspicious activities.'},
@@ -116,6 +116,9 @@ window.RUNS={
   {id:'aggreko',name:'Aggreko Generators',key:'BS196857',addr:'101-107 Woodlands Dr, Braeside VIC 3195',dur:'10 min',req:3,info:['Alarm codes 5024 or 2380','After hours: Chris Tomich 0404 481 237'],notes:'3x patrol per night.'},
   {id:'keysshop',name:'Keysborough South Shopping Centre',key:'BS196861',addr:'217 Chapel Rd, Keysborough VIC 3173',dur:'10 min',req:2,info:['After hours: Dominic Monaco 0417 008 754','After hours: 1300 023 428'],notes:'2x patrol per night.'},
   {id:'tgind',name:'T & G Industries',key:null,addr:'88-92 Kirkham Rd W, Keysborough VIC 3173',dur:'10 min',req:1,notes:'1x intermediate patrol. Check doors and ensure everything is secured.'},
-  {id:'site18',name:'Luminact',key:null,addr:'2 Rocco Drive, Scoresby, VIC 3179',dur:'10 min',req:1,windows:[BETWEEN('23:30','04:30')],winLabels:['2330-0430'],info:['After hours: SSX Group 1300 779 778','After hours: SSX Group service@ssxgroup.com.au'],notes:'Entire exterior check of the premise. Ensure everything is secured and report any new damage/graffiti or any other issues.'}
+  {id:'site18',name:'Luminact',key:null,addr:'2 Rocco Drive, Scoresby, VIC 3179',dur:'10 min',req:1,windows:[BETWEEN('23:30','04:30')],winLabels:['2330-0430'],info:['After hours: SSX Group 1300 779 778','After hours: SSX Group service@ssxgroup.com.au'],notes:'Entire exterior check of the premise. Ensure everything is secured and report any new damage/graffiti or any other issues.'},
+  {id:'site19',name:'Keller Pty Ltd',key:null,addr:'42 Bate Cl, Pakenham VIC 3810',dur:'10 min',req:3,codes:[{l:'Gate Code',v:'1407'}],steps:['3x Patrols per night. Use the gate code to enter the premises and conduct a patrol inside. Check for any signs of break in, damage, graffiti, or suspicious persons. Make sure you check the fence line and report any holes. Pay extra attention to the fence line facing the train tracks. This is a common area for break ins. Report any issues to ART Security.'],contacts:[{n:'ART Security',p:'1300 278 666'}]},
+  {id:'site20',name:'Botanic Ridge Shopping Centre',key:null,addr:'10 Hummingbird Dr, Botanic Ridge VIC 3977',dur:'10 min',req:2,windows:[AFTER('2230'),null],winLabels:['After 2230',''],steps:['2x Patrols per night. First patrol must be at 2230. Check to ensure the centre is fully secured and there is no new damage or graffiti. Second patrol must be at random after midnight.'],contacts:[{n:'Jamie - Leedwell',p:'0478 135 476'}]},
+  {id:'site21',name:'Botanic Ridge Swim School and Child Care',key:null,addr:'1-25S Hummingbird Dr, Botanic Ridge VIC 3977',dur:'10 min',req:2,windows:[AFTER('2230'),null],winLabels:['After 2230',''],steps:['2x Patrols per night. First patrol must be at 2230. Check to ensure the swim school and child care centres are secured and there is no new damage or graffiti. Second patrol must be at random after midnight.'],contacts:[{n:'Jamie - Leedwell',p:'0478 135 476',e:'jamie.reynolds@leedwell.com.au'}]}
  ]},
 };
