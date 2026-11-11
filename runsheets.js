@@ -45,7 +45,7 @@
    ============================================================================= */
 const TOILET_NOTE='1x lock up. Check all toilets for damage/graffiti and suspicious/homeless persons. If all clear, lock the toilet.';
 const LIB_NOTE='2x external patrols, at least 3 hours apart. Perform external perimeter check. Ensure the site is secured and there is no new damage/graffiti. Move on any homeless persons. Only perform an internal patrol if suspicious activity is found - otherwise not required.';
-window.RUNS_UPDATED='1 Oct 2026';
+window.RUNS_UPDATED='11 Nov 2026';
 window.RUNS={
  A1:{label:'Allied 1', shift:'1800-0600', sites:[
   {id:'p2p1',name:'Paddock To Port (Pipe Rd)',key:null,addr:'46 Pipe Rd, Laverton North VIC 3026',dur:'5 min',req:1,windows:[BETWEEN('18:15','18:30')],winLabels:['Lock 1815-1830'],info:['Lock code 1985'],notes:'1x patrol. Lock the front gate at approximately 1830. Report any damage, graffiti, or suspicious activities.'},
@@ -99,7 +99,6 @@ window.RUNS={
   {id:'site25',name:'185-187 Manningham Rd, Templestowe',key:null,addr:'185-187 Manningham Rd, Templestowe VIC 3106',dur:'10 min',req:2,minGap:90,info:['After hours: Linda Pollard (Charter Hall) 0472 648 178'],notes:'External check. Ensure all buildings are secured. Report any damage/graffiti or homeless/suspicious persons.'}
  ]},
  A11:{label:'Allied 11 SE', shift:'1800-0600', sites:[
-  {id:'abauto',name:'A & B Automotive Remanufacturing',key:'B106750',addr:'12-14 Cahill St, Dandenong South VIC 3175',dur:'10 min',req:1,notes:'1x intermediate patrol. Check all gates, doors and container.'},
   {id:'aerob',name:'AE Roberts',key:'B106912',addr:'8/12 Viewtech Pl, Rowville VIC 3178',dur:'10 min',req:3,notes:'3x intermediate patrol. Check all doors and ensure they are secured.'},
   {id:'caprice',name:'Caprice',key:null,addr:'21-23 S Park Dr, Dandenong South VIC 3175',dur:'10 min',req:3,notes:'3x intermediate patrol. Check all gates (3x gates) and fenceline.'},
   {id:'compnow',name:'Compnow',key:'B106948',addr:'352 Ferntree Gully Rd, Notting Hill VIC 3168',dur:'10 min',req:3,notes:'3x intermediate patrol. Ensure all doors are secured.'},
